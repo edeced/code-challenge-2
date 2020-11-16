@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
 #nav {
     display: flex;
     justify-content: space-between;
@@ -9,7 +13,7 @@
     color: #4B4B4B;
     font-family: sans-serif;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .nav-position > p:hover {
@@ -35,4 +39,101 @@
 abbr {
     cursor: pointer;
     text-decoration: none;
+}
+#center {
+    height: 40em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input {
+    border: .90px solid lightgray;
+    border-radius: 8em;
+    display: flex;
+    width: 30em;
+    height: 3.5em;
+}
+
+button {
+    font-size: 16px;
+    font: arial,sans-serif;
+    font-style: bold;
+    color: #202124;
+    background-size: 50px;
+    padding: .80em;
+    margin-top: 1.5em;
+    margin-right: .25em;
+    margin-left: .25em;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 2.5em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+#footer { 
+    font-size: 16px;
+    color: #70767A;
+    font-style: bold;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #DADCE1;
+    background-color: #F2F2F2;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    line-height: 1em;
+    font-family: Arial, Helvetica sans-serif;
+}
+
+/**  .footer-position {
+    justify-content: space-around;
+} **/
+.footer-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    
+}
+#transgenderawarenessweek {
+    display: flex;
+    align-items: center;
+}
+figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 14px;
+    font-style: bold;
+    margin-left: .60em;
+}
+
+#transgernderawarenessweek:hover,
+figcaption:hover {
+    cursor: pointer;
+}
+figcaption:active,
+#transgernderawarenessweek:active{
+    color:purple
+}
+#advertising:hover,
+#business:hover,
+#howitworks:hover,
+#privacy:hover,
+#terms:hover,
+#settings:hover {
+    text-decoration:  underline darkgray;
 }
