@@ -50,9 +50,10 @@ abbr {
 input {
     border: .90px solid lightgray;
     border-radius: 8em;
+    margin-top: 3.5em;
     display: flex;
-    width: 30em;
-    height: 3.5em;
+    width: 35em;
+    height: 3.67em;
 }
 
 button {
@@ -62,12 +63,11 @@ button {
     color: #202124;
     background-size: 50px;
     padding: .80em;
-    margin-top: 1.5em;
+    margin-top: 2em;
     margin-right: .25em;
     margin-left: .25em;
     border: none;
     border-radius: 3px;
-    margin-bottom: 2.5em;
 }
 
 button:hover {
@@ -79,8 +79,9 @@ button:hover {
     font-size: 16px;
     color: #70767A;
     font-style: bold;
+    position: fixed;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     border-top: 1px solid #DADCE1;
     background-color: #F2F2F2;
     bottom: 0;
@@ -91,28 +92,27 @@ button:hover {
     font-family: Arial, Helvetica sans-serif;
 }
 
-/**  .footer-position {
-    justify-content: space-around;
-} **/
 .footer-right {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 300px;
+    justify-content: space-around;
+    width: 400px;
 }
-
 
 .footer-left {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 300px;
     
 }
+
 #transgenderawarenessweek {
     display: flex;
     align-items: center;
+    margin-top: 2em;
 }
+
 figcaption {
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
@@ -125,10 +125,12 @@ figcaption {
 figcaption:hover {
     cursor: pointer;
 }
+
 figcaption:active,
 #transgernderawarenessweek:active{
     color:purple
 }
+
 #advertising:hover,
 #business:hover,
 #howitworks:hover,
